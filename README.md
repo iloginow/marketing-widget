@@ -12,7 +12,7 @@ This is a MERN stack demo project. It demonstrates a simple data overview setup 
 1. Clone this repository:
 
     ```sh
-    git clone git://github.com/iloginow/marketing-widget
+    git clone https://github.com/iloginow/marketing-widget
     ```
   
 2. CD into the project directory:
