@@ -39,7 +39,9 @@ bower_components
 build/Release
 
 # Dependency directories
-node_modules/
+node_modules
+client/node_modules/
+server/node_modules
 jspm_packages/
 
 # Snowpack dependency directory (https://snowpack.dev/)
@@ -85,6 +87,7 @@ web_modules/
 
 # Next.js build output
 .next
+clent/.next
 out
 
 # Nuxt.js build / generate output
@@ -128,3 +131,6 @@ dist
 .yarn/build-state.yml
 .yarn/install-state.gz
 .pnp.*
+
+# local data
+data

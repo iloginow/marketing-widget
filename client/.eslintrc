@@ -1,0 +1,15 @@
+{
+  "extends": ["airbnb", "airbnb/hooks"],
+  "env": { "node": true, "browser": true },
+  "parserOptions": {
+    "ecmaVersion": "2023"
+  },
+  "rules": {
+    "react/prop-types": ["off"],
+    "react/jsx-props-no-spreading": ["off"],
+    "react/jsx-uses-react": ["off"],
+    "react/react-in-jsx-scope": ["off"],
+    "react-hooks/exhaustive-deps": ["off"],
+    "react/no-array-index-key": ["off"]
+  }
+}
